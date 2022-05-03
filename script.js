@@ -19,6 +19,7 @@ window.addEventListener('DOMContentLoaded', function(){
 })
 
 again.addEventListener('click', function(){
+    location.reload();
     randomNumber = Math.ceil(Math.random() * 20);
   
     score.innerHTML = 'Score:' + scores;
