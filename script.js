@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', function(){
 again.addEventListener('click', function(){
     randomNumber = Math.ceil(Math.random() * 20);
   
-    score.innerHTML = 'Score:' + 19;
+    score.innerHTML = 'Score:' + scores;
   
     console.log(randomNumber);
 })
